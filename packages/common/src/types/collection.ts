@@ -8,8 +8,8 @@ import { TCollectionMetadata } from './metadata.js';
 /**
  * Sorting type
  * @enum
- * @property {string} Asc - Ascending -1
- * @property {string} Desc - Descending 1
+ * @property {string} Asc - Ascending (maps to MongoDB value: 1)
+ * @property {string} Desc - Descending (maps to MongoDB value: -1)
  */
 export enum EIndexType {
   Asc = 'Asc',
